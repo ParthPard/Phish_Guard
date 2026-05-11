@@ -11,12 +11,12 @@
 
 ---
 
-## 📖 Overview
+## Overview
 **PhishGuard** is a lightweight, asynchronous phishing detection system designed to mirror enterprise Security Operations Center (SOC) workflows. It addresses the vulnerability of traditional static blacklists by combining statistical machine learning classification with active Cyber Threat Intelligence (CTI) and WHOIS forensics to identify malicious, newly registered, and obfuscated domains in real-time.
 
 Built by **Parth Pardeshi** @ Indian Institute of Technology (IIT) Guwahati.
 
-## ✨ Key Features
+## Key Features
 - **Zero-Day Threat Detection:** Custom XGBoost model trained on PhishTank & Tranco Top 1M datasets to classify URLs based on lexical properties and structural anomalies.
 - **Defense in Depth Architecture:** 4-layer heuristic engine overriding ML false positives with global threat consensus.
 - **Active Threat Intelligence:** Live REST integration with the VirusTotal API (v3).
@@ -25,7 +25,7 @@ Built by **Parth Pardeshi** @ Indian Institute of Technology (IIT) Guwahati.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 PhishGuard operates on a decoupled microservices architecture to ensure sub-500ms browser response times:
 
 1. **Client Sensor (Chrome Extension):** Intercepts active tab URLs and acts as the initial payload trigger.
@@ -39,7 +39,7 @@ PhishGuard operates on a decoupled microservices architecture to ensure sub-500m
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```text
 PhishGuard/
 ├── backend/
