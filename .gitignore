@@ -1,0 +1,7 @@
+# Node (React Dashboard)
+node_modules/
+dist/
+
+# Python Cache
+__pycache__/
+*.pyc
